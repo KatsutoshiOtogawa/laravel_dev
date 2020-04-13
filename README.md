@@ -114,4 +114,4 @@ gcp,IBM,gitpodなどで実績はあるが、
 http以外のvagrant GuestOSのポート以外は
 閉じた状態、かつprivate networkでvaglant環境内にIDE含め開発環境がすべて揃うため
 ぜひ導入したい。
-一般にも定着するのは2020年末から2021年だと思われる。
+名だたる企業がcontributerのため、一般にも定着するのは早く2020年末から2021年だと思われる。
