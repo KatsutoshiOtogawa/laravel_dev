@@ -84,6 +84,15 @@ GuestOS,HostOS間のデータのやりとりに利用してください。
 書かれているので、それぞれの開発用PCで共有したいファイルに使うと
 いい感じです。
 
+## projectsディレクトリについて
+projectsディレクトリはにもdataディレクトリ同様に、
+gitignoreが使われているので、projects配下のファイルは
+laravel_devから無視されます。
+
+/home/vagrant/projects/your_projects
+のみgithubなり、awsなり、gcpなりにレポジトリを作って
+ソースコードを管理してください。
+
 ## submoduleについて
 submodule側のレポジトリが更新された場合は下のコマンドで追随します。
 ```
