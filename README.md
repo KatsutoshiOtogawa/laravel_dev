@@ -77,6 +77,12 @@ password: postgres
 config/database.php
 に書かれているので、迷ったらmysqlの方がいいかも。
 
+## aws,gcpについて
+submodule側のVagrantファイルに
+awscli,gcloudコマンドを
+インストールするようにスクリプトが書かれている。
+もし必要無いなら、コメントアウトすること。
+
 ## dataディレクトリについて
 プロジェクトの内容以外の
 GuestOS,HostOS間のデータのやりとりに利用してください。
@@ -98,3 +104,12 @@ submodule側のレポジトリが更新された場合は下のコマンドで�
 ```
 $ git submodule foreach git pull origin master
 ```
+
+## 未実装
+### eclipse theia
+gcp,IBMなどで実績はあるが、
+まだ、vscodeにあって、eclipse theiaに無いプラグインがあるため
+未実装。
+http以外のvagrant GuestOSのポート以外は
+閉じた状態、かつprivate networkでvaglant環境内にIDE含め開発環境がすべて揃うため
+ぜひ導入したい。
